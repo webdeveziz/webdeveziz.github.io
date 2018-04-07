@@ -17,6 +17,10 @@ header {
 	font-family: 'Roboto';
 }
 
+.header-img {
+ border-radius: 50px;	
+}
+
 .header-pretitle {
 	margin-top: 102px;
 }
@@ -188,6 +192,7 @@ footer {
 }
 }
 
+ 
 @media screen and (max-width: 992px){
 	.header-img {
 		display: none;
