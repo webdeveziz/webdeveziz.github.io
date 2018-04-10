@@ -14,11 +14,11 @@ header {
 	padding-bottom: 22px;
 	background-color: #397cfc;
 	color: #fff;
-	font-family: 'Roboto';
+	font-family:  'Roboto';
 }
 
 .header-img {
- border-radius: 50px;	
+ border-radius: 360%;	
 }
 
 .header-pretitle {
@@ -184,6 +184,15 @@ footer {
 
 .footer-cta-block {
 	text-align: center;
+}
+
+span {
+	display: inline-block;
+	transform: rotate(340deg);
+	border: 3px solid red;
+	border-radius: 0%;
+
+	
 }
 
  @media screen and (max-width: 1200px) {
